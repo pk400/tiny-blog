@@ -7,7 +7,10 @@
 <body>
 <div class="container">
 	<h1>Tiny Blog</h1>
-	<p></p>
+	<ul>
+		<li><a href="./register/register.php">Register</a></li>
+		<li>Create New Blog</li>
+	</ul>
 </div>
 </body>
 </html>
