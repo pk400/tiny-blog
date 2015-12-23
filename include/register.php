@@ -5,7 +5,7 @@
 		echo $_POST['user'];
 	}
 ?>
-	<h1>Register</h1>
+	<h3>Register</h3>
 	<table>
 		<form method="post" action="register.php">
 			<tr><td>Username: <input type="text" name="user" /></td></tr>
