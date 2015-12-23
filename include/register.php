@@ -1,11 +1,10 @@
 <?php
-	include_once("../include/header.html");
+	include_once("header.php");
 
 	if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		echo $_POST['user'];
 	}
 ?>
-<div class="container">
 	<h1>Register</h1>
 	<table>
 		<form method="post" action="register.php">

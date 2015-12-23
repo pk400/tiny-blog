@@ -1,4 +1,36 @@
+div, span, h1, h2, h3, h4, h5, h6, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+
 .container {
 	max-width: 800px;
 	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav {
+	border-bottom: 1px solid #333;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
 }
