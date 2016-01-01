@@ -1,0 +1,3 @@
+- connect registrations to mysql db
+- encrypt password before sending to db
+- store ip address
